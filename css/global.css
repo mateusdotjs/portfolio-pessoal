@@ -1,0 +1,25 @@
+:root {
+    --preto-absoluto: #000000;
+    --preto-fonte: #171717;
+    --preto-bg: #282828;
+    --cinza-bg: #3C3A3A;
+    --descricao-projetos: #585858;
+    --bg-projetos: #F3F3F3;
+    --cor-principal: #004EE7;
+    --cor-secundaria: #3E80FE;
+    --branco-absoluto: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 70px;
+}
