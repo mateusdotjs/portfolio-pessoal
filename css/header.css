@@ -52,10 +52,7 @@
 
 
 @media (max-width: 800px) {
-    .header-container {
-        padding: 10px 25px;
-    }
-
+    
     #btn-menu {
         display: block;
         transition: .3s;

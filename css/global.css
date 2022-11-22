@@ -21,5 +21,11 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px 70px;
+    padding: 25px 50px;
+}
+
+@media (max-width: 800px) {
+    .container { 
+        padding: 10px 20px;
+    }
 }
