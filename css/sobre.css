@@ -1,0 +1,38 @@
+.sobre-bg {
+    background-color: var(--preto-bg);
+    position: relative;
+    z-index: 0;
+}
+
+.sobre h1 {
+    color: var(--branco-absoluto);
+}
+
+.sobre p {
+    max-width: 765px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 60px;
+    color: var(--branco-absoluto);
+}
+
+.sobre a {
+    text-decoration: none;
+    color: var(--branco-absoluto);
+}
+
+
+@media (max-width:800px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre p {
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+}
