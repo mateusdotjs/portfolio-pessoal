@@ -37,4 +37,8 @@
         text-align: center;
         margin-bottom: 40px;
     }
+
+    .sobre a {
+        white-space: nowrap;
+    }
 }
