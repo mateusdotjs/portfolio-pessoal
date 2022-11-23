@@ -34,6 +34,7 @@
 .titulo {
     font-size: 4rem;
     margin-bottom: 30px;
+    text-transform: uppercase;
     position: relative;
 }
 
