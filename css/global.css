@@ -1,9 +1,9 @@
 :root {
     --preto-absoluto: #000000;
-    --preto-fonte: #171717;
-    --preto-bg: #282828;
+    --preto-fonte: #282828;
+    --preto-bg: #171717;
     --cinza-bg: #3C3A3A;
-    --descricao-projetos: #585858;
+    --descricao-projetos: #555555;
     --bg-projetos: #F3F3F3;
     --cor-principal: #004EE7;
     --cor-secundaria: #3E80FE;
@@ -25,11 +25,21 @@
 }
 
 .botao-grande {
+    display: inline-block;      
     padding: 15px 20px;
     border-radius: 4px;
     font-weight: 600;
     background: var(--cor-principal);
 }
+
+.botao-pequeno {
+    display: inline-block;      
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    background: var(--cor-principal);
+}
+
 
 .titulo {
     font-size: 4rem;
