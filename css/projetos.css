@@ -17,7 +17,7 @@
     display: grid;
     gap: 10px 20px;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 25px 40px 60px 25px auto;
+    grid-template-rows: 25px 50px 60px 25px auto;
     padding: 25px 35px;
     border-left: 2px solid var(--cor-principal);
     border-radius: 4px;
@@ -76,3 +76,13 @@
     background-color: #c9c9c9;
     opacity: 0;
 } */
+
+@media (max-width: 800px) {
+    .grid-projetos {
+        grid-template-columns: 1fr;
+    }
+
+    .projeto {
+        grid-template-rows: repeat(5, auto);
+    }
+}
