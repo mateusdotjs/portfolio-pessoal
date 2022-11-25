@@ -30,7 +30,13 @@
     border-radius: 4px;
     font-weight: 600;
     background: var(--cor-principal);
+    transition: .2s;
 }
+
+.botao-grande:hover {
+    background-color: var(--cor-secundaria);
+}
+
 
 .botao-pequeno {
     display: inline-block;      
@@ -40,6 +46,9 @@
     background: var(--cor-principal);
 }
 
+.botao-pequeno:hover {
+    background-color: var(--cor-secundaria);
+}
 
 .titulo {
     font-size: 4rem;
