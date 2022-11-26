@@ -69,6 +69,15 @@
     background-color: var(--cor-secundaria);
 }
 
+.esconder {
+    visibility: hidden;
+    transform: translateX(-50px);
+}
+
+.mostrar {
+    visibility: visible;
+}
+
 @media (max-width: 800px) {
     .container { 
         padding: 30px 15px;

@@ -15,6 +15,7 @@
     font-weight: 300;
     margin-bottom: 60px;
     color: var(--branco-absoluto);
+    transition: .2s;
 }
 
 .sobre a {
