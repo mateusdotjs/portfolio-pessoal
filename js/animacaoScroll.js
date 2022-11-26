@@ -1,5 +1,4 @@
 let elementos = document.querySelectorAll('.esconder');
-console.log(elementos)
 
 let parametros = {
     root: null,
