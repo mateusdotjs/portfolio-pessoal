@@ -1,0 +1,20 @@
+.contato h2 {
+    color: var(--preto-fonte);
+}
+
+.contato p {
+    font-size: 2rem;
+    font-weight: 600;
+    max-width: 765px;
+    margin-bottom: 10px;
+}
+
+.contato p:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+@media (max-width:800px) {
+    .contato p {
+        font-size: 1rem;
+    }
+}

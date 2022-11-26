@@ -1,0 +1,51 @@
+.conhecimentos-bg {
+    background-color: var(--preto-bg);
+    position: relative;
+    z-index: -1;
+}
+
+.conhecimentos h2 {
+    color: var(--branco-absoluto);
+}
+
+.tecnologias-container {
+    display: grid;
+    justify-items: center;
+}
+
+.tecnologias-bg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 820px;
+    padding: 50px 100px;
+    gap: 30px;
+    border-radius: 4px;
+    background-color: var(--cinza-bg);
+}
+
+.tecnologia img {
+    width: 100px; 
+    height: 100px;
+    padding-bottom: 5px;
+}
+
+.tecnologia p {
+    text-align: center;
+    color: var(--branco-absoluto);
+}
+
+@media (max-width: 800px) {
+
+    .tecnologias-bg {
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .conhecimentos h2 {
+        font-size: 2.2rem;
+    }
+}
