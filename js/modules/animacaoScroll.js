@@ -4,7 +4,7 @@ export default function iniciarAnimacao() {
     let parametros = {
         root: null,
         rootMargin: '0px',
-        threshold: 0.3
+        threshold: 0.35
     }
 
     let observador = new IntersectionObserver(callback, parametros)
