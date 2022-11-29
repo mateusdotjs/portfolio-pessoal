@@ -25,6 +25,10 @@
     background-color: var(--cinza-bg);
 }
 
+.tecnologia {
+    transition: .3s;
+}
+
 .tecnologia img {
     width: 100px; 
     height: 100px;
