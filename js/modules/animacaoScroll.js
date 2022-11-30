@@ -1,4 +1,4 @@
-export default function iniciarAnimacao() {
+export default function animacaoScroll() {
     let elementos = document.querySelectorAll('.esconder');
 
     let parametros = {
