@@ -8,9 +8,17 @@
 }
 
 .home h1 {
+    min-height: 155px;
     grid-column: 1 / -1;
     font-size: 4rem;
     color: var(--preto-fonte);
+}
+
+.home h1::after {
+    content: '|';
+    animation-name: digitar;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
 }
 
 .home span {
@@ -35,7 +43,22 @@
     }
 
     .home h1 {
+        max-width: 450px;
         font-size: 2.5rem;
         text-align: center;
+    }
+}
+
+@keyframes digitar {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
