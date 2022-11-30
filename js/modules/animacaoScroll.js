@@ -3,7 +3,7 @@ export default function iniciarAnimacao() {
 
     let parametros = {
         root: null,
-        rootMargin: '0px',
+        rootMargin: '-60px 0px 0px 0px',
         threshold: 0.35
     }
 
