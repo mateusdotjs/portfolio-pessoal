@@ -1,192 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Mateus Soares - Desenvolvedor Front-End</title>
-  </head>
 
-  <body>
-    
-    <header class="header-bg">
-      <div class="header">
-        <img src="img/logo branco.svg" />
-        <nav id="nav">
-          <button id="btn-menu">☰</button>
-          <ul id="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#conhecimentos">Conhecimentos</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Mateus Soares - Desenvolvedor Front-End</title>
+</head>
 
-    <main class="home container" id="home">
-      <h1></h1>
-      <div class="controle-botoes">
-        <a
-          href="https://github.com/mateusdotjs"
-          target="_blank"
-          class="botao-grande"
-          >GitHub</a
-        >
-        <a
-          href="https://www.linkedin.com/in/mateus-soares27/"
-          class="botao-grande"
-          target="_blank"
-          >LinkedIn</a
-        >
-      </div>
-    </main>
+<body>
 
-    <section class="sobre-bg">
-      <div class="sobre container" id="sobre">
-        <h2 class="titulo">SOBRE MIM</h2>
-        <p class="esconder">
-          Mateus, 21 anos, apaixonado por tecnologia desde sempre. Trabalho com
-          contabilidade no momento, mas pretendo migrar de área para fazer o que
-          realmente amo: programar. Todo o processo de programação me fascina,
-          desde planejar o design de uma página à manipular dados no back-end.
-          Iniciei pela parte do front e venho estudando por conta própria há
-          alguns meses para ingressar nessa área, com pretensão de me tornar um
-          dev full-stack futuramente.
-        </p>
-        <a
-          href="https://drive.google.com/uc?export=download&id=1XyyBSvI-n2wQCMI-5iwHYxnLtIeNMvcK"
-          class="botao-grande esconder"
-          >Baixe meu currículo</a
-        >
-      </div>
-    </section>
+  <header class="header-bg">
+    <div class="header">
+      <span class="logo">Mateus Soares</span>
+      <nav id="nav">
+        <button id="btn-menu">☰</button>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#conhecimentos">Conhecimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section class="projetos container" id="projetos">
-      <h2 class="titulo">Projetos</h2>
-      <div class="grid-projetos">
-        <div class="projeto esconder">
-          <h3>To-do list</h3>
-          <p>
-            To-do list feito com React e Tailwind CSS, ambiente de
-            desenvolvimento criado com Vite.
-          </p>
-          <a
-            href="https://harmonious-semolina-50b543.netlify.app/"
-            target="_blank"
-            class="botao-pequeno"
-            >Demo</a
-          >
-          <a
-            href="https://github.com/mateusdotjs/react-todo-list"
-            target="_blank"
-            class="botao-pequeno"
-            >Repo</a
-          >
-          <h4>Principais Aprendizados:</h4>
-          <ul class="aprendizados">
-            <li class="aprendizado">useState</li>
-            <li class="aprendizado">Props</li>
-            <li class="aprendizado">Renderização Condicional</li>
-            <li class="aprendizado">Componentização</li>
-            <li class="aprendizado">Tailwind CSS</li>
-            <li class="aprendizado">Design responsivo</li>
-            <li class="aprendizado">Vite</li>
-          </ul>
-        </div>
+  <main class="home container" id="home">
+    <h1 id="typewriter"></h1>
+    <div class="controle-botoes">
+      <a href="https://github.com/mateusdotjs" target="_blank" class="botao-grande">GitHub</a>
+      <a href="https://www.linkedin.com/in/mateus-soares27/" class="botao-grande" target="_blank">LinkedIn</a>
+    </div>
+  </main>
 
-        <div class="projeto esconder">
-          <h3>Advice Generator</h3>
-          <p>
-            Gerador de conselhos do front-end mentor feito em HTML, CSS e
-            JavaScript.
-          </p>
-          <a
-            href="https://mateusdotjs.github.io/advice-generator/"
-            target="_blank"
-            class="botao-pequeno"
-            >Demo</a
-          >
-          <a
-            href="https://github.com/mateusdotjs/advice-generator/"
-            class="botao-pequeno"
-            >Repo</a
-          >
-          <h4>Principais Aprendizados:</h4>
-          <ul class="aprendizados">
-            <li class="aprendizado">Manipulação do dom</li>
-            <li class="aprendizado">Fetch</li>
-            <li class="aprendizado">Async e Await</li>
-            <li class="aprendizado">Posicionamento</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+  <section class="sobre-bg">
+    <div class="sobre container" id="sobre">
+      <h2 class="titulo">SOBRE MIM</h2>
+      <p class="esconder">
+        Profissional com experiência em automação de planilhas e processos buscando transição
+        para a área de desenvolvimento de software. Apaixonado por tecnologia, busco aplicar meus
+        conhecimentos de lógica e resolução de problemas para criar experiências de usuário
+        simples, impactantes e inovadoras utilizando React, JavaScript, Tailwind, HTML e CSS.
+      </p>
+      <a href="https://drive.google.com/uc?export=download&id=1sujr2oHe1CUYcjMEA4xLmq707LuoFf6A"
+        class="botao-grande esconder">Baixe meu currículo</a>
+    </div>
+  </section>
 
-    <section class="conhecimentos-bg" id="conhecimentos">
-      <div class="conhecimentos container">
-        <h2 class="titulo">Conhecimentos</h2>
-        <div class="tecnologias-container">
-          <div class="tecnologias-bg">
-            <div class="tecnologia esconder">
-              <img src="./img/html-svgrepo-com.svg" />
-              <p>HTML5</p>
-            </div>
+  <section class="projetos container" id="projetos">
+    <h2 class="titulo">Projetos</h2>
+    <div class="grid-projetos"></div>
+  </section>
 
-            <div class="tecnologia esconder">
-              <img src="./img/css-svgrepo-com.svg" />
-              <p>CSS3</p>
-            </div>
-
-            <div class="tecnologia esconder">
-              <img src="./img/js-svgrepo-com.svg" />
-              <p>JavaScript</p>
-            </div>
-
-            <div class="tecnologia esconder">
-              <img src="./img/reactjs-svgrepo-com.svg" />
-              <p>React</p>
-            </div>
-
-            <div class="tecnologia esconder">
-              <img src="./img/tailwind-svgrepo-com.svg" />
-              <p>Tailwind CSS</p>
-            </div>
-
-            <div class="tecnologia esconder">
-              <img src="./img/git-svgrepo-com.svg" />
-              <p>Git</p>
-            </div>
-
-            <div class="tecnologia esconder">
-              <img src="./img/npm-svgrepo-com.svg" />
-              <p>npm</p>
-            </div>
+  <section class="conhecimentos-bg" id="conhecimentos">
+    <div class="conhecimentos container">
+      <h2 class="titulo">Conhecimentos</h2>
+      <div class="tecnologias-container">
+        <div class="tecnologias-bg">
+          <div class="tecnologia esconder">
+            <img src="./img/reactjs-svgrepo-com.svg" />
+            <p>React</p>
+          </div>
+          <div class="tecnologia esconder">
+            <img src="./img/tailwind-svgrepo-com.svg" />
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="tecnologia esconder">
+            <img src="./img/js-svgrepo-com.svg" />
+            <p>JavaScript</p>
+          </div>
+          <div class="tecnologia esconder">
+            <img src="./img/git-svgrepo-com.svg" />
+            <p>Git</p>
+          </div>
+          <div class="tecnologia esconder">
+            <img src="./img/html-svgrepo-com.svg" />
+            <p>HTML5</p>
+          </div>
+          <div class="tecnologia esconder">
+            <img src="./img/css-svgrepo-com.svg" />
+            <p>CSS3</p>
+          </div>
+          <div class="tecnologia esconder">
+            <img src="./img/npm-svgrepo-com.svg" />
+            <p>npm</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="contato container" id="contato">
-      <h2 class="titulo">Contato</h2>
-      <p class="esconder">
-        Estou dísponivel para trabalho. Entre em contato comigo caso esteja
-        interessado.
-      </p>
-      <p class="esconder">mateus.silvainfo@gmail.com</p>
-      <p class="esconder">11 95492-5932</p>
-    </section>
-    <footer>
-      <p>Desenvolvido por Mateus Soares</p>
-    </footer>
-    <script type="module" src="js/script.js"></script>
-    <noscript>Ative o javascript parar visualizar a página</noscript>
-  </body>
+  <section class="contato container" id="contato">
+    <h2 class="titulo">Contato</h2>
+    <p class="esconder">
+      Estou dísponivel para trabalho. Entre em contato comigo caso esteja
+      interessado.
+    </p>
+    <p class="esconder">mateus.silvainfo@gmail.com</p>
+    <p class="esconder">11 95492-5932</p>
+  </section>
+  <footer>
+    <p>Desenvolvido por Mateus Soares</p>
+  </footer>
+  <script type="module" src="js/script.js"></script>
+  <noscript>Ative o javascript parar visualizar a página</noscript>
+</body>
+
 </html>

@@ -1,5 +1,5 @@
 export default function typewriter() {
-    let h1 = document.querySelector('h1')
+    let h1 = document.querySelector('#typewriter')
     let texto1 = 'Mateus Soares,'
     let texto2 = 'Desenvolvedor '
     let texto3 = 'Front-End'
