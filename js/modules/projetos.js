@@ -7,11 +7,11 @@
         aprendizados: ['React Router', 'SQL', 'Tailwind CSS', 'Fluxo de autenticação', 'Custom Hooks', 'UseContext', 'UseEffect']
     },
     {
-        nome: 'To-do list React',
-        descricao: 'Simples To-do list feito com React e Tailwind CSS.',
-        demoUrl: 'https://harmonious-semolina-50b543.netlify.app/',
-        repoUrl: 'https://github.com/mateusdotjs/react-todo-list',
-        aprendizados: ['useState', 'Renderização Condicional', 'Tailwind CSS', 'Design responsivo', 'Vite']
+        nome: 'API Metrô de SP',
+        descricao: 'Pequena API que retorna o status das linhas de metrô de SP.',
+        demoUrl: 'https://api-metro-sp.onrender.com',
+        repoUrl: 'https://github.com/mateusdotjs/api-metro-sp',
+        aprendizados: ['Node', 'Web Scraping', 'Express', '.Env', 'Cheerio', 'Back End']
     },
     {
         nome: 'Advice Generator',
